@@ -1,7 +1,8 @@
 
 
 
-public record CreateBreakfastRequest(
+
+public record UpsertBreakfastRequest(
     string Name,
     string Description,
     DateTime StartDateTime,
